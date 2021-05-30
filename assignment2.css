@@ -1,0 +1,48 @@
+  background:red;
+  color: blue;
+  font-family:normal;
+}
+.container {
+  display: block;
+  background:yellow;
+  width: 500px;
+  margin: 80px auto  ;
+  padding:20px;
+}
+
+ul {
+  margin: auto;
+  padding: 10px;
+}
+
+button {
+  font-size: 14px;
+  width: 60px;
+  margin: 10px 0 0;
+  font-family:normal;
+  
+}
+
+
+h3,label[for='new-task'] {
+  color: red;
+  font-size: 15px;
+  border-bottom: 2px solid black;
+  padding: 20px 0 10px;
+  }
+  
+input[type="text"] {
+  
+  font-size: 18px;
+  line-height: 18px;
+  height: 15px;
+  padding: 3px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 6px;
+  font-family: normal;
+  color: red;
+}
+#completed-tasks label{
+text-decoration:line-through;
+}
